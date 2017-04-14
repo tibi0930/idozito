@@ -15,7 +15,8 @@ public:
     ~Idozito();
 private:
     QTimer * _timer;
-    QLCDNumber* _lcdNumber;
+    QLCDNumber* _lcdMin;
+    QLCDNumber* _lcdH;
     int time;
 };
 
